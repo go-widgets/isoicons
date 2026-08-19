@@ -1,0 +1,37 @@
+go-widgets/isoicons
+===================
+
+This repository bundles third-party isometric icon artwork. The Go source code
+is licensed under the BSD-3-Clause license (see LICENSE). The vendored assets
+keep their own upstream licenses, reproduced alongside them, and are included
+UNMODIFIED.
+
+
+Pack "cloudnative"  (assets/cloudnative/*.png)
+----------------------------------------------
+
+Source repository : https://github.com/fjudith/cloud-native-isometric-icons
+Author            : fjudith
+License           : Apache License, Version 2.0 (see assets/cloudnative/LICENSE)
+Upstream commit   : 1e11959e41df2e17c08a970bac727ed2d545a89c (branch master)
+Raw asset URL     : https://raw.githubusercontent.com/fjudith/cloud-native-isometric-icons/1e11959e41df2e17c08a970bac727ed2d545a89c/<path>
+
+A curated subset of the 128px PNG icons is vendored under assets/cloudnative/,
+renamed to stable concept ids but otherwise byte-for-byte unmodified. This
+product includes software/artwork developed by fjudith. Licensed under the
+Apache License, Version 2.0; you may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0 .
+
+
+Pack "aws"  (assets/aws/*.svg)
+------------------------------
+
+Source repository : https://github.com/danieljoos/isometric-cloud-icons
+Author            : danieljoos
+License           : CC0 1.0 Universal (public domain, see assets/aws/LICENSE)
+Upstream commit   : 8545379380fbf8ef7e55d545204b018d03fb0228 (branch master)
+Raw asset URL     : https://raw.githubusercontent.com/danieljoos/isometric-cloud-icons/master/<name>.svg
+
+The nine SVG icons are vendored under assets/aws/, byte-for-byte unmodified.
+CC0-1.0 places the work in the public domain and requires no attribution; the
+source is recorded here only for traceability.
