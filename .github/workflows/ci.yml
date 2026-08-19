@@ -38,8 +38,8 @@ jobs:
       - name: go vet
         run: go vet ./...
 
-      - name: Test with race detector and coverage
-        run: go test -race -coverprofile=coverage.out ./...
+      - name: Test with coverage (CGO-free)
+        run: go test -coverprofile=coverage.out ./...
 
       - name: Assert 100% statement coverage
         run: |
@@ -50,6 +50,13 @@ jobs:
             go tool cover -func=coverage.out | grep -v "100.0%"
             exit 1
           fi
+
+      - name: Test with race detector
+        # The race detector requires cgo, so this one step opts into it; the
+        # library itself is pure Go and every other step stays CGO_ENABLED=0.
+        env:
+          CGO_ENABLED: "1"
+        run: go test -race ./...
 
       - name: Cross-compile smoke (6 64-bit arches + wasm + darwin + windows)
         run: |
