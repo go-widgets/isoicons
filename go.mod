@@ -22,7 +22,7 @@ require (
 	github.com/go-widgets/mvvm v0.15.0 // indirect
 	github.com/go-widgets/painter v0.16.0 // indirect
 	golang.org/x/image v0.47.0 // indirect
-	golang.org/x/net v0.60.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 )
