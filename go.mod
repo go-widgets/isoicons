@@ -3,8 +3,8 @@ module github.com/go-widgets/isoicons
 go 1.27.2
 
 require (
-	github.com/go-gfx/gfx v0.37.0
-	github.com/go-widgets/toolkit v0.345.2
+	github.com/go-gfx/gfx v0.39.0
+	github.com/go-widgets/toolkit v0.349.1
 	github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c
 	github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef
 )
