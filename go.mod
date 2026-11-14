@@ -4,7 +4,7 @@ go 1.27.2
 
 require (
 	github.com/go-gfx/gfx v0.41.0
-	github.com/go-widgets/toolkit v0.356.0
+	github.com/go-widgets/toolkit v0.374.11
 	github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c
 	github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef
 )
@@ -22,6 +22,7 @@ require (
 	github.com/go-widgets/mvvm v0.15.0 // indirect
 	github.com/go-widgets/painter v0.17.0 // indirect
 	github.com/go-widgets/textinput v0.1.0 // indirect
+	github.com/go-widgets/vcs v0.1.0 // indirect
 	golang.org/x/image v0.47.0 // indirect
 	golang.org/x/net v0.60.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
