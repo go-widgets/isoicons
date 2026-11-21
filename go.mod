@@ -1,17 +1,17 @@
 module github.com/go-widgets/isoicons
 
-go 1.27.2
+go 1.27.4
 
 require (
 	github.com/go-gfx/gfx v0.41.0
-	github.com/go-widgets/toolkit v0.379.0
+	github.com/go-widgets/toolkit v0.392.0
 	github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c
 	github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef
 )
 
 require (
 	github.com/dsnet/compress v0.0.2-0.20230904184137-39efe44ab707 // indirect
-	github.com/go-crdt/crdt v0.57.0 // indirect
+	github.com/go-crdt/crdt v0.59.0 // indirect
 	github.com/go-images/images v0.3.0 // indirect
 	github.com/go-opentype/fonts v0.14.0 // indirect
 	github.com/go-opentype/opentype v0.20.0 // indirect
@@ -23,7 +23,7 @@ require (
 	github.com/go-widgets/textinput v0.1.0 // indirect
 	github.com/go-widgets/vcs v0.1.0 // indirect
 	golang.org/x/image v0.47.0 // indirect
-	golang.org/x/net v0.60.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 )
